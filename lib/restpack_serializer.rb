@@ -1,4 +1,4 @@
-require 'kaminari'
+require 'kaminari/core'
 require 'kaminari/activerecord'
 
 require_relative 'restpack_serializer/version'
