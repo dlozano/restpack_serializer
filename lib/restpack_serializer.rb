@@ -1,12 +1,11 @@
 require 'kaminari'
+require 'kaminari/activerecord'
 
 require_relative 'restpack_serializer/version'
 require_relative 'restpack_serializer/configuration'
 require_relative 'restpack_serializer/serializable'
 require_relative 'restpack_serializer/factory'
 require_relative 'restpack_serializer/result'
-
-Kaminari::Hooks.init
 
 module RestPack
   module Serializer
